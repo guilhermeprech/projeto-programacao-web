@@ -211,9 +211,56 @@ img {
   background-color: var(--color-surface-alt);
 }
 
+.produto-detalhes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.produto-descricao h2 {
+    margin-bottom: 20px;
+}
+
+.produto-descricao p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.produto-descricao ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.produto-descricao button {
+    padding: 12px 24px;
+    border: none;
+    background-color: #0b5cff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .produto-imagem img {
+  padding: 12px;
   width: 100%;
+  max-width: 500px;
   height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.produto-imagem-iphone {
+  margin-top: 30px;
+  background-color: var(--color-surface-alt);
+}
+
+.produto-imagem-iphone img {
+  padding: 12px;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  display: block;
   object-fit: cover;
 }
 

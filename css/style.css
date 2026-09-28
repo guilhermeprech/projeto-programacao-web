@@ -246,7 +246,6 @@ img {
 }
 
 .produto-imagem img {
-  padding: 12px;
   width: 100%;
   max-width: 500px;
   height: 100%;
@@ -256,11 +255,9 @@ img {
 
 .produto-imagem-iphone {
   margin-top: 30px;
-  background-color: var(--color-surface-alt);
 }
 
 .produto-imagem-iphone img {
-  padding: 12px;
   width: 100%;
   max-width: 500px;
   height: 100%;

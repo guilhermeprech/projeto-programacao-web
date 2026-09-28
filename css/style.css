@@ -58,6 +58,10 @@ img {
 }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -372,14 +376,6 @@ img {
   background-color: var(--color-primary);
   color: #ffffff;
   border-color: var(--color-primary);
-}
-
-.footer-bottom {
-  border-top: 1px solid var(--color-border);
-  padding-top: 1.25rem;
-  text-align: center;
-  color: var(--color-text-muted);
-  font-size: 0.8rem;
 }
 
 @media (max-width: 900px) {
